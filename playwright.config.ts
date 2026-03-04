@@ -33,6 +33,7 @@ export default defineConfig({
     baseURL: 'https://www.saucedemo.com/',
     headless: true, // QUAN TRỌNG để thấy browser
     screenshot: 'only-on-failure',
+    testIdAttribute: 'data-test'
   },
 
 
